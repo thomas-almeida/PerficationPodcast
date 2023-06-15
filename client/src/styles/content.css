@@ -1,0 +1,43 @@
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 79vh;
+}
+
+.content ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    overflow-y: auto !important;
+    padding: 10px;
+    gap: 10px;
+    list-style: none;
+}
+
+.content li img {
+    width: 250px;
+    height: 250px;
+}
+
+.content li h3 {
+    font-size: 1.1em;
+    padding: 10px 10px;
+    color: #202020;
+    max-width: 250px;
+}
+
+.content li img {
+    box-shadow: 0px 3px 8px #2c2c2c80;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.content li img:hover {
+    transform: scale(1.02);
+}
+
+.content li {
+    text-align: center;
+    margin-bottom: 5px;
+}
