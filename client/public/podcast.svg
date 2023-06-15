@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-e30b353b-7c25-4cb3-beca-e0156886694d" data-name="Podcast" xmlns="http://www.w3.org/2000/svg" width="576" height="576" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 576 576">
+  <defs>
+    <linearGradient id="uuid-0f0541a7-edb5-4ee6-b5bf-41f04c356d18" x1="288" y1="495" x2="288" y2="313" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24b6d2"/>
+      <stop offset="1" stop-color="#51e5e3"/>
+    </linearGradient>
+    <linearGradient id="uuid-a39a0050-69c3-4ee8-b67d-542a51d3aac9" x1="288" y1="396" x2="288" y2="81" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e03e6d"/>
+      <stop offset="1" stop-color="#e87a7a"/>
+    </linearGradient>
+  </defs>
+  <path d="m389,336.89v-5c0-10.43-8.46-18.89-18.89-18.89h-164.22c-10.43,0-18.89,8.46-18.89,18.89v6.11c0,50.6,37.4,92.62,86,99.89v7.11c0,11.05-8.95,20-20,20h-23c-8.28,0-15,6.72-15,15h0c0,8.28,6.72,15,15,15h116c8.28,0,15-6.72,15-15h0c0-8.28-6.72-15-15-15h-23c-11.05,0-20-8.95-20-20v-7.13c48.83-7.37,86-50.15,86-100.98Z" fill="url(#uuid-0f0541a7-edb5-4ee6-b5bf-41f04c356d18)" opacity=".85"/>
+  <rect x="212.51" y="81" width="150.98" height="315" rx="75.49" ry="75.49" fill="url(#uuid-a39a0050-69c3-4ee8-b67d-542a51d3aac9)" opacity=".85"/>
+  <g>
+    <line x1="278.68" y1="199.36" x2="350.44" y2="199.36" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+    <line x1="278.68" y1="238.5" x2="350.44" y2="238.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+    <line x1="278.68" y1="277.64" x2="350.44" y2="277.64" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+  </g>
+</svg>
