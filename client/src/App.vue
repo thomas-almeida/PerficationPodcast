@@ -5,7 +5,7 @@ export default {
     return {
       inputValue: '',
       searchData: null,
-      episodeArt: '/album-model.jpg',
+      episodeArt: '/default-art.png',
       episodeTitle: 'Selecione um Episódio',
     }
   },
@@ -44,7 +44,7 @@ export default {
 <template>
   <nav>
     <section>
-      <input type="text" placeholder="..." v-model="inputValue" @keyup.enter="podFetch">
+      <input type="text" placeholder="Pesquisar" v-model="inputValue" @keyup.enter="podFetch">
       <ion-icon id="searchIcon" name="search-outline"></ion-icon>
     </section>
   </nav>
