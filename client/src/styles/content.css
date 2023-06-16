@@ -10,6 +10,7 @@
     grid-template-columns: repeat(6, 1fr);
     justify-content: center;
     overflow-y: auto !important;
+    overflow-x: hidden !important;
     padding: 10px;
     gap: 10px;
     list-style: none;
@@ -96,12 +97,12 @@
         font-size: 1em !important;
     }
     input {
-        width: 100% !important;
+        width: -webkit-fill-available !important;
         position: relative;
     }
     #searchIcon {
         top: -34px;
-        left: 95% !important;
+        left: 88% !important;
     }
     .ep-info {
         padding: 0px;
@@ -123,21 +124,21 @@
         height: 130px
     }
     .content {
-        height: 60vh;
+        height: 57vh;
     }
-    .content h3 {
-        font-size: 0.9em !important;
+    .ep-info h3 {
+        font-size: 1em !important;
     }
     progress {
         display: none;
     }
     input {
-        width: 100% !important;
+        width: -webkit-fill-available !important;
         position: relative;
         padding: 10px 2px !important;
     }
     #searchIcon {
         top: -34px;
-        left: 90% !important;
+        left: 88% !important;
     }
 }
