@@ -30,9 +30,14 @@ export default {
     },
 
     cowsay(event){
+
+      const newEpisodeTitle = event.target.parentNode.childNodes[1].childNodes[0].innerText
+      const episodeID = event.target.parentNode.childNodes[1].childNodes[1].innerText.split(":")
       this.episodeArt = event.target.src
-      let newEpisodeTitle = event.target.parentNode.childNodes[1].childNodes[0].innerText
       this.episodeTitle = newEpisodeTitle
+      
+      // Episode ID
+      console.log(episodeID[2])
 
     }
 
@@ -55,6 +60,7 @@ export default {
           <img :src="episode.data.coverArt.sources[1].url" :alt="episode.data.name" @click="cowsay($event)" draggable="false">
           <section>
             <h3>{{ episode.data.name }}</h3>
+            <p>{{ episode.data.uri }}</p>
           </section>
         </li>
       </ul>
