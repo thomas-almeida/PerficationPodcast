@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     padding: 10px;
-    height: 79vh;
+    height: 74vh;
 }
 
 .content ul {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     overflow-y: auto !important;
     overflow-x: hidden !important;
@@ -78,7 +78,10 @@
 
 @media (min-width: 1920px) {
     .content ul {
-        grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: repeat(7, 1fr);
+    }
+    .content {
+        height: 79vh;
     }
 }
 

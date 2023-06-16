@@ -9,6 +9,10 @@
     width: -webkit-fill-available;
 }
 
+audio {
+    width: -webkit-fill-available;
+}
+
 .player img {
     width: 90px;
     box-shadow: 0px 0px 4px #25252542;
